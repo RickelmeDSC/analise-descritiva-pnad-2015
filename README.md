@@ -66,6 +66,8 @@ Combinando os dois efeitos: a renda mediana do **homem branco (R\$ 1.700)** é *
 
 ### 4. Estudar paga — mas não paga igual
 
+![Renda por anos de estudo e sexo](images/boxplot_renda_estudo_sexo.png)
+
 A escolaridade é a variável que mais movimenta a renda: entre os homens, a mediana sobe de R\$ 700 (sem instrução) para R\$ 4.000 (15 anos ou mais de estudo). Estudar **funciona**.
 
 Mas não funciona igual para todos. Em **todos os 17 níveis** de escolaridade, o homem ganha mais que a mulher de mesma formação. O dado mais duro:
