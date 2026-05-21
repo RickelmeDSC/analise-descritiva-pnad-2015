@@ -53,7 +53,8 @@ Salário mínimo de 2015: R$ 788,00
 
 ```
 analise-descritiva-pnad-2015/
-├── README.md
+├── README.md                     # História dos achados (peça de portfólio)
+├── DOCUMENTACAO.md                # Documentação técnica e metodológica
 ├── CLAUDE.md
 ├── .gitignore
 ├── requirements.txt
@@ -62,7 +63,7 @@ analise-descritiva-pnad-2015/
 ├── notebooks/
 │   └── analise_descritiva.ipynb
 └── images/
-    └── (prints dos gráficos principais)
+    └── (gráficos principais exportados em PNG)
 ```
 
 ## Stack utilizada
@@ -97,14 +98,13 @@ analise-descritiva-pnad-2015/
 ## Como me ajudar (instruções para o Claude Code)
 
 ### Filosofia geral
-Este é meu **primeiro projeto real de análise de dados**. Quero aprender Pandas, Seaborn e estatística aplicada construindo este projeto. NÃO quero que você gere o notebook inteiro de uma vez.
+Este é meu **primeiro projeto real de análise de dados**. Quero aprender Pandas, Seaborn e estatística aplicada construindo este projeto. **Escreva o código direto nas células, mas explique cada decisão passo a passo** — aprendo melhor vendo o código pronto acompanhado da explicação do que tentando do zero. Avance **uma seção por vez**, conforme eu autorizar; nunca gere o notebook inteiro de uma vez.
 
 ### Quando eu pedir ajuda em uma análise
 
-1. **Pergunte primeiro:** "Já tentou? Como pensou em resolver?"
-2. **Explique o conceito estatístico** envolvido antes do código (ex: "antes de calcular a moda, lembra que a moda é o valor mais frequente. No Pandas, isso é..."
-3. **Mostre o código em partes pequenas**, explicando cada linha
-4. **Conecte com o significado real**: o que esse número diz sobre a sociedade brasileira?
+1. **Explique o conceito estatístico** envolvido antes do código (ex: "antes de calcular a moda, lembra que a moda é o valor mais frequente. No Pandas, isso é...")
+2. **Escreva o código direto na célula** — sem esperar eu tentar primeiro —, em partes pequenas e explicando cada linha
+3. **Conecte com o significado real**: o que esse número diz sobre a sociedade brasileira?
 
 ### Estilo de explicação
 - **Português** sempre
@@ -132,16 +132,16 @@ Quando eu pedir review:
 
 ## O que NÃO fazer
 
-- ❌ Não gerar células inteiras do notebook sem eu pedir
+- ❌ Não adiantar várias seções de uma vez — avance uma seção por vez, conforme eu autorizar
 - ❌ Não usar bibliotecas além das listadas (não tem plotly, não tem dash)
 - ❌ Não usar machine learning ainda (só descritiva)
-- ❌ Não fazer conclusões prontas — me ajude a chegar nelas
+- ❌ Não escrever conclusões sem interpretação social e ressalvas estatísticas — o texto é meu para revisar e editar
 - ❌ Não usar nomes de variáveis em inglês
 - ❌ Não pular a explicação do "por quê" para ir direto ao "como"
 
 ## O notebook segue um roteiro
 
-O projeto tem 75 células com roteiro pré-definido pelo curso. A ordem é:
+O projeto tem 77 células (75 do roteiro original do curso + 2 inseridas na exploração inicial). A ordem é:
 
 1. Importar bibliotecas
 2. Carregar dataset
@@ -166,13 +166,17 @@ O projeto tem 75 células com roteiro pré-definido pelo curso. A ordem é:
 
 ## Onde estou agora
 
-[Atualizar à medida que avançar]
-- ⏳ Iniciando: carregar dataset e primeiras explorações
+**✅ Projeto concluído.**
+- ✅ Notebook completo — todas as células preenchidas, com código, narrativa e conclusões
+- ✅ README.md profissional com a história dos achados e gráficos
+- ✅ DOCUMENTACAO.md técnica (dicionário de dados, metodologia, decisões)
+- ✅ Gráficos principais exportados em `images/`
+- ⏭️ Pendente: postar no LinkedIn com os insights principais
 
 ## Próximos passos depois deste projeto
 
-1. Concluir o notebook completo
-2. Escrever README profissional contando a história dos achados
+1. ✅ Concluir o notebook completo
+2. ✅ Escrever README profissional contando a história dos achados
 3. Postar no LinkedIn com 2-3 insights principais
 4. Iniciar SQLite (próximo curso do roadmap)
 5. **Semana 3:** começar Projeto 1 — Dashboard de Finanças Pessoais
