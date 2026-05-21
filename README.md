@@ -9,6 +9,17 @@
 
 ---
 
+## ⚡ TL;DR
+
+Análise descritiva de **76.840 registros** da PNAD 2015 que revela:
+
+- **64,8%** dos brasileiros estão na classe de renda mais baixa (até 2 salários mínimos)
+- **99%** das pessoas ganham até R\$ 15.000 — o 1% restante chega a R\$ 200.000
+- O homem branco ganha **2,1×** a renda mediana da mulher negra
+- Desigualdade regional: o Distrito Federal tem renda mediana **2,9×** maior que a do Maranhão
+
+---
+
 ## 🎯 Sobre o projeto
 
 Este é o meu **primeiro projeto real de análise de dados** — desenvolvido como trabalho final do curso *"Estatística com Python: Frequências e Medidas"* (Alura) e transformado em peça de portfólio.
@@ -126,11 +137,22 @@ jupyter notebook notebooks/analise_descritiva.ipynb
 
 ---
 
+## 🎓 O que aprendi com este projeto
+
+- **Pandas:** `read_csv`, `cut`, `value_counts`, `crosstab`, `groupby` + `agg`, `query`, `quantile`
+- **Visualização:** quando usar histograma, gráfico de barras ou box plot — e por quê
+- **Estatística aplicada:** medidas de tendência central, separatrizes, dispersão e assimetria
+- **Storytelling com dados:** transformar tabelas em narrativa interpretável
+- **Rigor analítico:** distinguir associação de causalidade e declarar as ressalvas
+
+---
+
 ## 👤 Autor
 
-**Rickelme** — em transição de carreira para Análise de Dados.
+**Rickelme David** — em transição de carreira para Análise de Dados.
 
 [![GitHub](https://img.shields.io/badge/GitHub-RickelmeDSC-181717?logo=github)](https://github.com/RickelmeDSC)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rickelme%20David-0A66C2?logo=linkedin)](https://www.linkedin.com/in/rickelme-david-75630b203/)
 
 ---
 
