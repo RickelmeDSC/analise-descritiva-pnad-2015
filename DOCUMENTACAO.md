@@ -152,7 +152,18 @@ As versões mínimas recomendadas estão em [`requirements.txt`](requirements.tx
 
 ---
 
-## 7. Como reproduzir
+## 7. Evolução — Etapa 1 (Análise com pesos amostrais)
+
+Este documento descreve a **Etapa 0** (análise descritiva em Python sobre o CSV curado pelo curso, sem pesos amostrais). A análise foi expandida numa **Etapa 1**, realizada em R sobre os microdados oficiais do IBGE, com pesos amostrais aplicados via pacote `survey` — em colaboração inicial com a economista **Tanise Brandão** (PhD em Economia).
+
+A Etapa 1 vive na branch `feature/pesos-amostrais`. Documentação dedicada:
+
+- **[NOTAS_METODOLOGICAS.md](NOTAS_METODOLOGICAS.md)** — origem dos dados oficiais, variáveis e posições no `PES2015.txt`, escolha do design amostral simplificado, discrepância documentada entre o CSV curado da Etapa 0 e o microdado IBGE, pontos abertos para revisão metodológica.
+- **[RESUMO_ETAPA1.md](RESUMO_ETAPA1.md)** — síntese narrativa dos 6 achados principais, com referências aos gráficos comparativos em `images/etapa1/`.
+
+---
+
+## 8. Como reproduzir
 
 ```bash
 git clone https://github.com/RickelmeDSC/analise-descritiva-pnad-2015.git
