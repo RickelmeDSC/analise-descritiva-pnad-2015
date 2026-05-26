@@ -226,3 +226,6 @@ CLAUDE.md
 .RData
 .Rapp.history
 .Rproj.user/
+
+# Microdados PNAD (download local — ver DOCUMENTACAO.md)
+data/microdados_pnad_2015/
