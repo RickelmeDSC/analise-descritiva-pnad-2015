@@ -158,6 +158,25 @@ jupyter notebook notebooks/analise_descritiva.ipynb
 
 ---
 
+## 🤝 Etapa 1 — Análise com pesos amostrais (parceria)
+
+> Este projeto **evoluiu**. Depois do post original no LinkedIn, a economista **Tanise Brandão** (PhD em Economia) apontou que a Etapa 0 não aplicava os **pesos amostrais** da PNAD. A Etapa 1 refaz a análise sobre os microdados oficiais do IBGE em **R com o pacote `survey`**, em colaboração inicial.
+
+**6 achados que a versão sem pesos escondia:**
+
+1. A classe E é **67,2%** (não 64,8%) — 45 milhões de domicílios no piso
+2. Mulheres = **40%** das pessoas de referência (Etapa 0 dizia 30%)
+3. Hierarquia Branca ↔ Parda se **inverte** com pesos amostrais
+4. Mulher branca: renda mediana cai **−12,5%** ao aplicar pesos
+5. Mulheres com até 10 anos de estudo: **todas no salário mínimo** (R\$ 788)
+6. **10 estados brasileiros** têm mediana de renda = salário mínimo exato
+
+📄 **História completa:** [RESUMO_ETAPA1.md](RESUMO_ETAPA1.md)
+🔬 **Metodologia:** [NOTAS_METODOLOGICAS.md](NOTAS_METODOLOGICAS.md)
+🌿 **Branch:** `feature/pesos-amostrais` (8 scripts R, 6 gráficos comparativos em `images/etapa1/`)
+
+---
+
 ## 📚 Fonte dos dados
 
 Pesquisa Nacional por Amostra de Domicílios — PNAD 2015, IBGE.
